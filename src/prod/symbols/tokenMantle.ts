@@ -1,0 +1,22 @@
+export enum TokenSymbol {
+    WETHMANTLE = 'WETH',
+    MNTMANTLE = 'MNT',
+    WMNTMANTLE = 'WMNT',
+    USDTMANTLE = 'USDT',
+    LUSDMANTLE = 'LUSD',
+    PENDLEMANTLE = 'PENDLE',
+    WBTCMANTLE = 'WBTC',
+    WSTETHMANTLE = 'wstETH',
+    USDCMANTLE = 'USDC',
+    MINUMantle = 'MINU',
+    LENDMantle = 'LEND',
+    CTTMantle = 'CTT',
+    BELMantle = 'BEL',
+    AXLMantle = 'AXL',
+    USDYMantle = 'USDY',
+    METHMantle = 'mETH',
+    USDLRMantle = 'USDLR',
+    STUSDMantle = 'stUSD',
+    DRAGONMantle = '$MDragon',
+}
+
