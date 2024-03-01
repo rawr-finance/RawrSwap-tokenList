@@ -35,7 +35,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'eth.png',
         contracts: {
             [ChainId.BlastTest]: {
-                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //WETH
+                address: '0x4200000000000000000000000000000000000023', //WETH
                 decimal: 18,
             },
         },
@@ -49,7 +49,21 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'WETH.png',
         contracts: {
             [ChainId.BlastTest]: {
-                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3',
+                address: '0x4200000000000000000000000000000000000023',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Rebasing USD',
+        symbol: TokenSymbol.USDB,
+        chains: [
+            ChainId.BlastTest,
+        ],
+        icon: baseURL + 'usdb.png',
+        contracts: {
+            [ChainId.BlastTest]: {
+                address: '0x4200000000000000000000000000000000000022',
                 decimal: 18,
             },
         },
